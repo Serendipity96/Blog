@@ -1,33 +1,38 @@
-nav{
-	background: #f06;
-	height: 50px;
+.main-wrapper{
+	background: url('../img/banner0.jpg');
+	background-attachment: fixed;
 }
 
+header{
+	background:rgba(0,0,0,0.2);
+}
+nav{
+	background: transparent;
+	/*height: 180px;*/
+}
+
+#toggle{
+	height: 60px;
+	width: 80px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 30px;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 50px;
+}
+
+#toggle a{
+	color: white;
+
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
 #banner{
-	background:url('../img/banner0.jpg')  center no-repeat;
 	height: 700px;
 }
 
-nav ul{
-	list-style: none;
-	margin: 0 auto;
-	margin-right: 30px;
-	float: right;
-}
-
-nav ul li {
-	display: inline-block;
-	line-height: 50px;
-	margin-right: 30px;
-}
-
-nav ul li a{
-	/*line-height: 50px;*/
-	text-decoration: none;
-	display: inline-block;
-	height: inherit;
-	color: white;
-}
 
 nav .logo a{
 	color: white;
@@ -52,18 +57,9 @@ nav .logo a{
 	margin: 0;
 	letter-spacing: 2px;
 	font-weight: normal;
+	color: white;
 }
 
-/*.sub-heading{
-	margin: 0;
-}*/
-
-/*button{
-	border: none;
-	background: #333;
-	color: #eee;
-	padding: 10px;
-}*/
 
 #banner button {
 	border: none;
@@ -85,6 +81,7 @@ nav .logo a{
 }
 
 .green-section{
+	min-height: 480px;
 	text-align: center;
 	background: #2b9464;
 	color: white;
@@ -229,4 +226,32 @@ nav .logo a{
 }
 .card:nth-child(6){
 	background: rgba(0,0,0,0.20);
+}
+
+footer{
+	background: #333;
+	color: white;
+	min-height: 200px;
+	text-align: center;
+}
+ul{
+	margin: 0;
+}
+
+ul .share-group{
+	
+	display: block;
+	width: 1080px;
+	margin: 0 auto;
+
+}
+
+.share-group li{
+	padding-top: 50px;
+	padding-right: 20px;
+	display: inline-block;
+}
+
+.copyright{
+	padding: 40px;
 }

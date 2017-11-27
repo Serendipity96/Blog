@@ -7,28 +7,31 @@
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
-	<header><!--页头开始-->
+	<div class="main-wrapper">
+		<header><!--页头开始-->
 
 		<nav>
-			<div class="logo"><a href="#">zyl&zrf</a></div>
-			<ul>	
-				<li><a href="#" class="active">我</a></li>
-				<li><a href="#">爱</a></li>
-				<li><a href="#">你</a></li>
-			</ul>	
+			<div class="logo">
+				<a href="#">test</a>
+			</div>
+			<audio id="bgMusic" autoplay="autoplay">
+				<source src="love.mp3" type="audio/mp3">
+			</audio>
+			<div id="toggle" onclick="toggleSound()">
+				<a href="#">play</a>
+			</div>
+			
 		</nav>
 
 		<div id="banner">
 			<div class="inner">
-				<h2>10.28我们在一起</h2>
+				<h2>zzzzzzzzzzzzzzz</h2>
 				<!-- <p class="sub-heading">10.28我们在一起</p> -->
 				<!-- <button>了解我</button> -->
-				<div class="more">更多</div>
+				<!-- <div class="more">更多</div> -->
 			</div>
 		</div>
-
 	</header><!-- 页头结束 -->
-
 	<div class="content"><!-- 中间内容开始 -->
 		<section class="green-section">
 			<div class="wrapper">
@@ -111,9 +114,33 @@
 			
 		</section>
 	</div><!-- 中间内容结束 -->
-
 	<footer><!--页脚开始-->
+		<ul class="share-group">
+			<li>item1</li>
+			<li>item2</li>
+			<li>item3</li>
+			<li>item4</li>
+			<li>item5</li>
+		</ul>
+		<div class="copyright">
+			&copy zrf - 2017
+		</div>
+		
 		
 	</footer><!--页脚结束-->
+	</div>
+	<script type="text/javascript">
+		function toggleSound(){
+			var music = document.getElementById("bgMusic");
+			var toggle = document.getElementById("toggle");
+			if (music.paused) {
+				music.play();
+				toggle.innerHTML = "paused";
+			}else{
+				music.pause();
+				toggle.innerHTML = "play";
+			}
+		}
+	</script>
 </body>
 </html>
