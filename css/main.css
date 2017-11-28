@@ -8,45 +8,57 @@ header{
 }
 nav{
 	background: transparent;
-	/*height: 180px;*/
+}
+h2{
+	font-size: 24px;
+	letter-spacing: 1px;
 }
 
-#toggle{
-	height: 60px;
-	width: 80px;
+p{
+	font-size: 18px;
+	font-weight: lighter;
+}
+nav .music_change a {
 	float: right;
-	margin-right: 50px;
-	margin-top: 30px;
-	background: transparent;
-	border: 2px solid white;
-	border-radius: 50px;
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 80px;
+    height: 40px;
+    padding-top: 13px;
+    display: inline-block;
+    border-radius: 6px;
+    font: 14px/28px 'Microsoft Yahei';
+    transition: background-color .5s ease;
+    color: #fff;
+    border: #ccc 1px solid;
+    text-align: center;
+    text-decoration: none;
 }
 
-#toggle a{
-	color: white;
-
-	text-decoration: none;
-	color: white;
-	text-align: center;
+nav .music_change a:hover {
+    background: #ccc;
+    color: #fff
 }
+
+
 #banner{
 	height: 700px;
 }
 
 
-nav .logo a{
+/*nav .logo a{
 	color: white;
 	text-decoration: none;
 	float: left;
 	margin-left: 50px;
 	font-size: 20px;
 	font-weight: 700;
-	letter-spacing: 2px;/*字间距*/
+	letter-spacing: 2px;
 	padding: 10px;
-}
+}*/
 
 #banner .inner{
-	max-width: 300px;
+	/*max-width: 300px;*/
 	text-align: center;
 	margin: 0 auto;
 	position: relative;/* rearch */
@@ -55,25 +67,20 @@ nav .logo a{
 }
 #banner .inner h2{
 	margin: 0;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	padding-top: 18px;
+	padding-left: 170px;
 	font-weight: normal;
 	color: white;
+
 }
 
 
-#banner button {
-	border: none;
-	color: #ccc;
-	padding: 10px 30px;
-	background-color: transparent;
-	border: 1px solid;
-	border-radius: 5px;
-}
-#banner .inner .more{
+/*#banner .inner .more{
 	margin-top: 280px;
 	color: white;
 
-}
+}*/
 
 .wrapper{
 	max-width: 1080px;
@@ -81,33 +88,41 @@ nav .logo a{
 }
 
 .green-section{
-	min-height: 480px;
+	min-height: 460px;
 	text-align: center;
 	background: #2b9464;
 	color: white;
-	padding: 180px;
-
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 .green-section .hr
 {
-	width: 60%;
+	width: 80%;
 	height: 1.5px;
-	margin: 20px auto;
+	margin: 40px auto;
 	background: white;
 }
 
-.green-section .icon-group .icon{
+/*.green-section .icon-group .icon{
 	display: inline-block;
 	width: 60px;
 	height: 60px;
-	background: #000;
+	background: rgba(0,0,0,0.5);
 	transform: rotate(45deg);
 	margin: 30px;
 	margin-top: 40px;
+}*/
+
+.green-section h2{
+	font-size: 32px;
 }
-
-
+.green-section p {
+	line-height: 36px;
+	font-size: 20px;
+}
 .gray-section .img-section{
 	width: 35%;
 }
@@ -122,11 +137,17 @@ nav .logo a{
 }
 .gray-section .text-section{
 	width: 65%;
+
+}
+.gray-section p {
+	line-height: 36px;
+	font-size: 18px;
+	font-weight: lighter;
 }
 
 .article-preview > div{
 	float: left;
-	/*font-size: 0;*/
+	font-size: 0;
 }
 
 .article-preview:nth-child(odd){
@@ -163,6 +184,7 @@ nav .logo a{
 
 .purple-section h2{
 	text-align: center;
+	letter-spacing: 10px;
 }
 
 .clear-fix :after{
@@ -183,9 +205,12 @@ nav .logo a{
 .purple-section .sub-heading{
 	padding-left: 80px;
 	padding-right: 50px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	line-height: 28px;
 }
 .card-group{
-	padding-top: 80px;
+	padding-top: 60px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -194,7 +219,7 @@ nav .logo a{
 	width: 50%;
 	min-height: 300px;
 	box-sizing: border-box;
-	/*border: 1px solid white;*/
+	
 }
 
 .card h3{
@@ -207,6 +232,7 @@ nav .logo a{
 	padding-top: 20px;
 	padding-left: 50px;
 	margin-right: 50px;
+	line-height: 24px;
 }
 
 .card:nth-child(1){
@@ -248,8 +274,9 @@ ul .share-group{
 
 .share-group li{
 	padding-top: 50px;
-	padding-right: 20px;
+	padding-right: 45px;
 	display: inline-block;
+	font-size: 18px;
 }
 
 .copyright{
