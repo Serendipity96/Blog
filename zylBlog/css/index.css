@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    /* background-color: #f7f7f7; */
+}
+/*站内搜索*/
+header{
+    width: 100%;
+    height: 650px;
+    background:rgba(0, 0,0, 0.3);
+}
+.wrapper01{
+
+    background: url('../img/bg.jpg') center no-repeat;    
+}
+
+.wrapper01 .menu{
+    width: 120px;
+    height: 120px;
+    background: url('../img/menu.png') center no-repeat;
+    cursor: pointer;
+}
+.wrapper01 h2{
+    margin-left: 600px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    color: #ccc;
+}
+.wrapper01 .input{
+    margin-left: 400px;
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    font-size: 28px;
+    background-color: white;
+    border: none;
+    
+}
+.wrapper01 .icon_right{
+    margin-left: -80px;
+    width: 40px;
+    height: 40px;
+    background:url('../img/icon_right.png') center no-repeat;
+    cursor: pointer;
+    border: none;
+}
+.wrapper01 p{
+    margin-left: 600px;
+    margin-top: 200px;
+    color: white;
+}
+
+.wrapper01 .down{
+    margin-left: 600px;
+    width: 80px;
+    height: 80px;
+    background:url('../img/down.png') center no-repeat;
+}
+
+/*个人介绍*/
+.wrapper_about{
+    width: 100%;
+    height: 700px;
+    background: rgb(162, 162, 218);
+}
+
+.wrapper_about .img_head{
+    width: 180px;
+    height: 180px;
+    margin-left: 120px;
+    margin-top: 200px;
+    border-radius: 95px;
+}
+
+.wrapper_about .name {
+    font-size: 24px;
+    margin-left: 165px;
+    margin-top: 30px;
+}
+
+.wrapper_about .attention{
+    margin-left: 150px;
+    width: 100px;
+    height: 40px;
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.wrapper_about a:hover{
+    color: white;
+    background-color: #ccc;
+    border: none;
+}
+
+.wrapper_about p{
+    max-width: 600px;
+    margin-left: 500px;
+    margin-top:-270px;
+    font-size: 24px;
+}
+
+/*技术Java*/
+.wrapper_tech_Java{
+    width: 100%;
+    height: 700px;
+    background: #ccc;
+}
+
+.wrapper_tech_Java h1{
+    margin-top: 0;
+    margin-left: 500px;
+    padding-top: 100px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+/*Scrum*/
+.wrapper_tech_Scrum{
+    width: 100%;
+    height: 700px;
+    background:#fff;
+}
