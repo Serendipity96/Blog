@@ -6,17 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>zylBlog</title>
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,400" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header_wrap">
-            <div class="header_logo"></div>
-            <nav class="header_nav">
-                <a class="header_nav_item header_nav_item_status_active" href="#">Home</a>
-                <a class="header_nav_item" href="#">About</a>
-                <a class="header_nav_item" href="#">Tech</a>
-                <a class="header_nav_item" href="#">Contact</a>
+            <nav>
+                <div class="header_logo"></div>
+                <ul>
+                    <li >Contact</li>
+                    <li>Tech</li>
+                    <li>About</li>
+                    <li class="item_active">Home</li>
+                </ul>
+
             </nav>
+            <p class="title" >嗨，伙计，想找点什么？</p>
             <input class="input" placeholder="站内搜索..." type="text">
             <button class="go" type="submit"></button>
         </div>
